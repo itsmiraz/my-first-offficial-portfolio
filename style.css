@@ -36,6 +36,7 @@
 
 .second-sec {
     margin-top: 4%;
+    margin-bottom: 10%;
 }
 
 .second-sec h1 {
@@ -70,4 +71,72 @@
 .ph {
     padding: 3px 5px 5px 2px;
     gap: 3px;
+}
+
+.footer {
+    margin-top: 5%;
+    background-color: navy;
+    height: 50px;
+    max-width: 30000px;
+
+}
+
+
+
+
+/* -------------Media Queries ------------ */
+
+@media only screen and (max-width:688px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .header {
+        margin-top: 8%;
+        width: 100%;
+        margin-bottom: 0%;
+        height: auto;
+        background-color: bisque;
+        border-radius: 10px;
+    }
+
+    .header img {
+        width: 90%;
+
+
+    }
+
+    .head-text h1 {
+        color: tomato;
+    }
+
+    .head-text {
+        text-align: center;
+
+        font-size: small;
+    }
+
+    .head-text p {
+        width: 200px;
+        color: rgb(80, 80, 80);
+        font-size: xx-small;
+    }
+
+    .photos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .second-sec {
+        margin-right: 20px;
+    }
+
+    .second-sec h1 {
+        color: tomato;
+        font-size: 1em;
+    }
+
+    .ph p {
+        font-size: xx-small;
+    }
 }
